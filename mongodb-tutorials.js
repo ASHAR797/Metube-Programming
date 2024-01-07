@@ -4,7 +4,7 @@ let mongo_db_section = document.querySelector("#mongo-db")
 mongo_db_icon.addEventListener("click", () => {
   mongo_db_icon.style.backgroundColor = "grey"
   mongo_db_icon.style.color = "white"
-  mongo_db_section.style.display = "flex" 
+  mongo_db_section.style.display = "flex"
   // Hide javascript
   Js_Icon.style.backgroundColor = ""
   Js_Icon.style.color = ""
@@ -12,17 +12,17 @@ mongo_db_icon.addEventListener("click", () => {
   // hide github
   github_icon.style.backgroundColor = ""
   github_icon.style.color = ""
-  github_section.style.display = "none" 
+  github_section.style.display = "none"
   // hide Python
   python_icon.style.backgroundColor = ""
   python_icon.style.color = ""
-  python_section.style.display = "none" 
+  python_section.style.display = "none"
   // hide C++ hide
   c_lang_icon.style.backgroundColor = ""
   c_lang_icon.style.color = ""
-  c_lang_section.style.display = "none" 
+  c_lang_section.style.display = "none"
   // hide React hide 
   react_icon.style.backgroundColor = ""
   react_icon.style.color = ""
-  react_section.style.display = "none" 
+  react_section.style.display = "none"
 })
