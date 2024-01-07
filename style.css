@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 35px;
+}
+
+nav div:nth-child(1),
+nav div:nth-child(3)>i {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+nav div:nth-child(2) {
+    width: 45%;
+    border: 2px solid #e1dddd;
+    border-radius: 26px;
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav div:nth-child(2) input {
+    border: none;
+    flex: 1;
+    font: 16px;
+    outline: none;
+}
+
+nav div:nth-child(2) i {
+    font-size: 21px;
+    width: 10%;
+    border-left: 2px solid #e1dddd;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+nav div:nth-child(3) {
+    display: flex;
+    align-items: center;
+}
+
+nav div:nth-child(3) button {
+    padding: 10px 20px;
+    font-size: 17px;
+    border: 2px solid #fff;
+    color: blue;
+    border-radius: 22px;
+}
+
+nav div:nth-child(3) button>i {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    height: 38.45em;
+    width: 100%;
+}
+
+.aside-section {
+    height: 100%;
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .4s;
+    background: whitesmoke;
+    border-top-right-radius: 20px;
+}
+
+.aside-section-div {
+    width: 11em;
+}
+
+.aside-section aside .language-span {
+    display: none;
+    width: 75%;
+    /* Initially hide the spans */
+}
+
+.aside-section aside .language-span.flex {
+    display: flex;
+}
+
+
+
+.aside-section aside div {
+    display: flex;
+    align-items: center;
+    padding: 9px 7px;
+    justify-content: space-between;
+    margin: 30px 0px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.aside-section aside div:hover {
+    background-color: #e1dddd;
+}
+
+.aside-section aside div>img {
+    width: 30px;
+}
+
+.videos-section {
+    width: 96%;
+    height: 100%;
+}
+
+#javascript,
+#c-plus-plus,
+#python,
+#mongo-db ,
+#github,
+#react{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#javascript h1,
+#c-plus-plus h1,
+#python h1,
+#mongo-db h1,
+#github h1,
+#react h1 {
+    padding: 20px;
+    font-size: 34px;
+}
+
+#language-videos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 22px;
+}
+
+#language-vidoes iframe {
+    border-radius: 14px;
+}
+
+#video {
+    padding: 5px;
+}
