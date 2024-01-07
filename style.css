@@ -11,9 +11,13 @@ body {
 }
 
 nav {
+    background: whitesmoke;
     display: flex;
     justify-content: space-between;
     padding: 13px 35px;
+    border-bottom-right-radius: 23px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 23px;
 }
 
 nav div:nth-child(1),
