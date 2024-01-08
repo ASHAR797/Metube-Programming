@@ -13,28 +13,15 @@ menu.addEventListener("click", () => {
 
     let spansToToggle = document.querySelectorAll(".language-span");
 
-    setTimeout(() => {
-        spansToToggle.forEach(span => {
-            if (span.style.display === "none") {
-                span.style.display = "flex";
-            } else {
-                span.style.display = "none";
-            }
-        });
-    }, 110);
+    spansToToggle.forEach(span => {
+        if (span.style.display === "none") {
+            span.style.display = "flex";
+        } else {
+            span.style.display = "none";
+        }
+    });
 
 
 })
-
-let  themeLight = document.querySelector(".ri-sun-fill")
-let  themeDark = document.querySelector(".ri-moon-fill")
-    themeLight.addEventListener("click", () => {
-        themeDark.style.display = "block"
-        themeLight.style.display = "none"
-      })
-      themeDark.addEventListener("click", () => {
-        themeLight.style.display = "block"
-        themeDark.style.display = "none"
-      })
 
 

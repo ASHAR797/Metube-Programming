@@ -1,10 +1,10 @@
-// Github section - Open
-let github_icon = document.querySelector("#github-logo")
-let github_section = document.querySelector("#github")
-github_icon.addEventListener("click", () => {
-  github_icon.style.backgroundColor = "grey"
-  github_icon.style.color = "white"
-  github_section.style.display = "flex"
+// Css section - Open
+let Css_icon = document.querySelector("#Css-logo")
+let Css_section = document.querySelector("#Css")
+Css_icon.addEventListener("click", () => {
+  Css_icon.style.backgroundColor = "grey"
+  Css_icon.style.color = "white"
+  Css_section.style.display = "flex"
   //  hide javascript
   Js_Icon.style.backgroundColor = ""
   Js_Icon.style.color = ""
