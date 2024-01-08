@@ -20,12 +20,20 @@ nav {
     border-bottom-left-radius: 23px;
 }
 
-nav div:nth-child(1),
-nav div:nth-child(3)>i {
+nav div:nth-child(1) {
     display: flex;
     align-items: center;
     font-size: 22px;
+    padding: 11px;
 }
+.ri-moon-fill,.ri-sun-fill{
+    font-size: 22px;
+    padding: 11px;
+}
+.ri-moon-fill{
+    display: none;
+}
+
 
 nav div:nth-child(2) {
     width: 45%;
@@ -37,12 +45,13 @@ nav div:nth-child(2) {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    background-color: #fff;
 }
 
 nav div:nth-child(2) input {
     border: none;
     flex: 1;
-    background-color: whitesmoke;
+    background-color: white;
     font: 16px;
     outline: none;
 }
@@ -55,7 +64,7 @@ nav div:nth-child(2) i {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: #d5d2d2;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
 }
@@ -160,8 +169,9 @@ main {
     padding: 22px;
 }
 
-#language-vidoes iframe {
+#language-videos iframe {
     border-radius: 14px;
+    box-shadow: 0px 0px 10px 0px grey;
 }
 
 #video {
