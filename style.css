@@ -6,7 +6,8 @@
 }
 /*set-theme */
 :root{
-    --whitesmoke:zz;
+  --backgroundcolorTheme: whitesmoke ;
+  --colorTheme:  ;
 }
 body {
     width: 100%;
@@ -14,7 +15,7 @@ body {
 }
 
 nav {
-    background: whitesmoke;
+    background: var(--backgroundcolorTheme);
     display: flex;
     justify-content: space-between;
     padding: 13px 35px;
@@ -28,14 +29,14 @@ nav div:nth-child(1) {
     align-items: center;
     font-size: 22px;
     padding: 11px;
+    color: var(--colorTheme);
 }
 .ri-moon-fill,.ri-sun-fill{
     font-size: 22px;
     padding: 11px;
+    cursor: pointer;
 }
-.ri-moon-fill{
-    display: none;
-}
+
 
 
 nav div:nth-child(2) {
@@ -48,13 +49,14 @@ nav div:nth-child(2) {
     display: flex;
     align-items: center;
     padding-left: 20px;
-    background-color: #fff;
+    background-color: var(--backgroundcolorTheme);
 }
 
 nav div:nth-child(2) input {
     border: none;
     flex: 1;
-    background-color: white;
+    background-color: var(--backgroundcolorTheme);
+    color: var(--colorTheme);
     font: 16px;
     outline: none;
 }
@@ -80,9 +82,11 @@ nav div:nth-child(3) {
 nav div:nth-child(3) button {
     padding: 10px 20px;
     font-size: 17px;
-    border: 2px solid #fff;
-    color: blue;
+    border: 2px solid var(--colorTheme);
+    color: var(--colorTheme);
     border-radius: 22px;
+    cursor: pointer;
+    background: var(--backgroundcolorTheme);
 }
 
 nav div:nth-child(3) button>i {
@@ -102,7 +106,7 @@ main {
     flex-direction: column;
     align-items: center;
     transition: .4s;
-    background: whitesmoke;
+    background: var(--backgroundcolorTheme);
     border-top-right-radius: 20px;
 }
 
@@ -130,6 +134,8 @@ main {
     margin: 30px 0px;
     border-radius: 10px;
     transition: .2s;
+    cursor: pointer;
+    background-color: #fff;
 }
 
 .aside-section aside div:hover {

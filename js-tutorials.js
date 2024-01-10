@@ -26,9 +26,3 @@ Js_Icon.addEventListener("click", () => {
   react_icon.style.color = ""
   react_section.style.display = "none"
 })
-
-// Open folder with Searching
-let input = document.querySelector("#input")
-if (input.value == "Javascript") {
-  console.log(2 + 2)
-}
