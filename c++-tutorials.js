@@ -5,6 +5,9 @@ c_lang_icon.addEventListener("click", () => {
   c_lang_icon.style.backgroundColor = "grey"
   c_lang_icon.style.color = "white"
   c_lang_section.style.display = "flex"
+  // hide hero web
+  var heroSection = document.querySelector(".hero-section")
+  heroSection.style.display = "none"
   // hide Javascript
   Js_Icon.style.backgroundColor = ""
   Js_Icon.style.color = ""

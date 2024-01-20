@@ -5,7 +5,9 @@ react_icon.addEventListener("click", () => {
   react_icon.style.backgroundColor = "grey"
   react_icon.style.color = "white"
   react_section.style.display = "flex"
-
+  // hide hero web
+  var heroSection = document.querySelector(".hero-section")
+  heroSection.style.display = "none"
   // hide Javascript
   Js_Icon.style.backgroundColor = ""
   Js_Icon.style.color = ""

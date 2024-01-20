@@ -1,8 +1,11 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(./font-folder/Roboto-Regular.ttf);
+    font-family: 'Poppins';
+    src: url(font-folder/Poppins-Regular.ttf);
 }
-
+@font-face {
+    font-family: 'Roboto';
+    src: url(font-folder/Roboto-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +22,7 @@
 body {
     width: 100%;
     height: 100%;
+    background-color: var(--backgroundcolorTheme);
 }
 
 nav {
@@ -29,6 +33,7 @@ nav {
     border-bottom-right-radius: 23px;
     margin-bottom: 10px;
     border-bottom-left-radius: 23px;
+    box-shadow: 0px 0px 4px  grey;
 }
 
 nav div:nth-child(1) {
@@ -117,6 +122,7 @@ main {
     transition: .4s;
     background: var(--backgroundcolorTheme);
     border-top-right-radius: 20px;
+    box-shadow: 0px 0px 4px  grey;
 }
 
 .aside-section-div {
@@ -161,7 +167,45 @@ main {
     width: 96%;
     height: 100%;
 }
-
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 87.7vh;
+    color: var(--colorTheme);
+}
+.hero-section div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section p{
+    width: 54%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 34px;
+    font-family: 'Poppins',sans-serif;
+}
+.hero-section h1:nth-child(1){
+ font-size: 55px;
+ width: 54%;
+ text-align: center;
+}
+.hero-section h1:nth-child(2){
+    font-size: 65px ;
+    color: seagreen;
+    font-family: 'Poppins',sans-serif;
+}
+.hero-section div:nth-child(2) img{
+   width: 50px;
+   margin: 10px;
+}
+.hero-section div:nth-child(2) h2{
+    text-align: center;
+    margin: 12px;
+    font-size: 28px;
+}
 #javascript,
 #c-plus-plus,
 #python,

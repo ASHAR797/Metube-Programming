@@ -5,6 +5,9 @@ github_icon.addEventListener("click", () => {
   github_icon.style.backgroundColor = "grey"
   github_icon.style.color = "white"
   github_section.style.display = "flex"
+  // hide hero web
+  var heroSection = document.querySelector(".hero-section")
+  heroSection.style.display = "none"
   //  hide javascript
   Js_Icon.style.backgroundColor = ""
   Js_Icon.style.color = ""

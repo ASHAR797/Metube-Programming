@@ -5,6 +5,9 @@ python_icon.addEventListener("click", () => {
   python_icon.style.backgroundColor = "grey"
   python_icon.style.color = "white"
   python_section.style.display = "flex"
+  // hide hero web
+  var heroSection = document.querySelector(".hero-section")
+  heroSection.style.display = "none"
   // hide javascript
   Js_Icon.style.backgroundColor = ""
   Js_Icon.style.color = ""
