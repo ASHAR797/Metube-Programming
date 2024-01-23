@@ -68,8 +68,8 @@ tl.from(".hero-section h1:nth-child(1) , .hero-section h1:nth-child(2) , .hero-s
   stagger: .3
 })
 
-tl.from("#c-plus-plus h1, #c-plus-plus h1, #python h1, #mongo-db h1, #github h1, #react h1",{
-  
+tl.from("#c-plus-plus h1, #c-plus-plus h1, #python h1, #mongo-db h1, #github h1, #react h1", {
+
   y: 50,
   duration: .6,
   opacity: 0,
