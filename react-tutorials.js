@@ -28,4 +28,12 @@ react_icon.addEventListener("click", () => {
   c_lang_icon.style.backgroundColor = ""
   c_lang_icon.style.color = ""
   c_lang_section.style.display = "none"
+
+  tl.from("#react h1, #react #language-videos iframe",{
+  
+    y: 30,
+    duration: .6,
+    opacity: 0,
+    stagger: .3
+  })
 })

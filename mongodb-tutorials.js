@@ -28,4 +28,13 @@ mongo_db_icon.addEventListener("click", () => {
   react_icon.style.backgroundColor = ""
   react_icon.style.color = ""
   react_section.style.display = "none"
+
+  
+  tl.from("#mongo-db h1, #mongo-db #language-videos iframe",{
+  
+    y: 30,
+    duration: .6,
+    opacity: 0,
+    stagger: .3
+  })
 })

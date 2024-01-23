@@ -53,3 +53,28 @@ function toggleTheme() {
 
 }
 
+// Gsap Animation
+
+let tl = gsap.timeline()
+tl.from("#menu , nav div:nth-child(2) , nav div:nth-child(1) , nav div:nth-child(3) button", {
+  y: 20,
+  duration: 1,
+  opacity: 0
+})
+tl.from(".hero-section h1:nth-child(1) , .hero-section h1:nth-child(2) , .hero-section p , .hero-section div:nth-child(2) h2 , .hero-section div:nth-child(2) img", {
+  y: 50,
+  duration: 1,
+  opacity: 0,
+  stagger: .3
+})
+
+tl.from("#c-plus-plus h1, #c-plus-plus h1, #python h1, #mongo-db h1, #github h1, #react h1",{
+  
+  y: 50,
+  duration: .6,
+  opacity: 0,
+  stagger: .3
+})
+
+
+
